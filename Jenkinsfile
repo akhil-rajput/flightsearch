@@ -15,10 +15,9 @@ node{
   }
   
   stage('test'){
-    steps{
+  
       
       bat:'mvn test -f flightsearch'
-    }
     
   }
 }
