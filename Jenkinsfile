@@ -11,4 +11,12 @@ node{
     bat: 'mvn package'
     
   }
+  
+  stage('test'){
+    strps{
+      
+      bat:'mvn test -f flightsearch'
+    }
+    
+  }
 }
