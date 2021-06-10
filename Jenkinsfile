@@ -12,7 +12,7 @@ bat'mvn clean compile'
 
  }
   stage('test stage'){
-bat'mvn test flightsearch'
+bat'mvn test'
 }
 
 }
