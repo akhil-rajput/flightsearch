@@ -11,7 +11,7 @@ bat'mvn clean compile'
 
 
  }
-  stage{
+  stage('test stage'){
 bat'mvn test flightsearch'
 }
 
