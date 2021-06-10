@@ -11,5 +11,8 @@ bat'mvn clean compile'
 
 
  }
+  stage{
+bat'mvn test'
+}
 
 }
