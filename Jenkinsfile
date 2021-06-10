@@ -15,7 +15,7 @@ node{
   }
   
   stage('test'){
-    strps{
+    steps{
       
       bat:'mvn test -f flightsearch'
     }
