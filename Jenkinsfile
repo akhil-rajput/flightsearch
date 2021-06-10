@@ -13,11 +13,9 @@ node{
     bat: 'mvn package'
     
   }
-  
-  stage('test'){
-  
-      
-      bat:'mvn test -f flightsearch'
-    
-  }
+ stage("Maven Build"){
+            steps{
+                sh 'mvn clean package'
+            }
+        }
 }
