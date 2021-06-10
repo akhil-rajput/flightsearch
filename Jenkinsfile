@@ -14,5 +14,11 @@ bat'mvn clean compile'
   stage('test stage'){
 bat'mvn test'
 }
+  
+  
+stage ('Install Stage') {
+bat'mvn install'
+}
+
 
 }
