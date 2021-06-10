@@ -11,5 +11,10 @@ node{
     bat: 'mvn package'
     
   }
+   stage("Maven Build"){
+            steps{
+                sh 'mvn clean package'
+            }
+        }
  
 }
